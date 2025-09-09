@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.footer__copyright {
+    font-weight: 400;
+    font-color: #212121;
+    opacity: 0.7;
+    padding: 60px 0;
+    margin: 0;
+}
