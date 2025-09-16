@@ -17,3 +17,7 @@ This project was an intro to developing websites that could be viewed in differe
 #### This webpage is depolyed to GitHub pages
 
 =Deployment Link:(https://djeon13.github.io/se_project_spots/)
+
+##### Screen Recording
+
+-https://drive.google.com/file/d/1yhxMQ6ppVtwIfS8PjYjA9BZJRNYiD359/view?usp=sharing
