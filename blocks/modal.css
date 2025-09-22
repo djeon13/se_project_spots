@@ -99,7 +99,8 @@
     }
 
     .modal__submit-btn{
-        width:276px;
-        height:52px;
+        width:100%;
+        box-sizing:border-box;
+        max-width:none;
     }
 }
