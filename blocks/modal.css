@@ -9,11 +9,13 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    display:none;
+    opacity:0;
+    transition: 0.5s linear;
 }
 
 .modal_is-opened{
     visibility: visible;
+    opacity:1;
 }
 
 .modal__container{
