@@ -97,8 +97,7 @@
    .modal__container{
        
         width:300px;
-        padding-top:10px;
-        padding-bottom:12px;
+        padding:10px 12px 12px;
         position:relative;
     }
 
