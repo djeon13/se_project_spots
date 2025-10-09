@@ -93,6 +93,40 @@
     opacity: 0.5;
 }
 
+
+.modal__image{
+    max-width: 80vw;
+    max-height: 80vh;
+    width:100%;
+    object-fit:contain;
+    display:block;
+    border-radius:8px;
+}
+
+.modal__caption{
+    color:white;
+    background-color: #212121;
+    padding:4px 8px;
+    border-radius: 8px;
+    margin-top: 12px;
+    width:max-content;
+   
+}
+
+.modal__image-container{
+    position:relative;
+}
+
+.modal__close_type_preview{
+    position:absolute;
+    top:0;
+    right:-52.5px;
+    background:none;
+    border:none;
+    color:white;
+    
+}
+
 @media screen and (max-width: 627px) {
    .modal__container{
        
@@ -116,6 +150,12 @@
         position: absolute;
         top: 12px;
         right: 12px;
+    }
+
+    .modal__close_type_preview{
+        top:-48px;
+        right:0;
+        padding:0;
     }
 
     .modal__form {
