@@ -81,6 +81,7 @@
                                 type="text"
                                 class="modal__input"
                                 placeholder="Type your name"
+                                required
                             />
                         </label>
                         <label
@@ -93,6 +94,7 @@
                                 type="text"
                                 class="modal__input"
                                 placeholder="Describe yourself"
+                                required
                             />
                         </label>
                         <button class="modal__submit-btn" type="submit">
@@ -115,6 +117,7 @@
                                 type="url"
                                 class="modal__input"
                                 placeholder="Paste a link to the picture"
+                                required
                             />
                         </label>
                         <label
@@ -127,6 +130,7 @@
                                 type="text"
                                 class="modal__input"
                                 placeholder="Type your caption"
+                                required
                             />
                         </label>
                         <button class="modal__submit-btn" type="submit">
@@ -135,9 +139,9 @@
                     </form>
                 </div>
             </div>
-            <div class="modal modal_type_preview" id="preview-modal">
+            <div class="modal" id="preview-modal">
                 <div class="modal__image-container">
-                    <button type="button" class="modal__close modal__close_type_preview">
+                    <button type="button" class="modal__close-btn modal__close-btn_type_preview">
                         <img src="./images/Preview-closebutton.svg" alt="close icon" />
                         </button>
                     <img src="#" alt="" class="modal__image">
