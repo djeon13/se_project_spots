@@ -44,22 +44,20 @@
                     <ul class="cards__list">
                         <template id="card-template">
                             <li class="card">
-                                <button class="card__delete-button" type="button"></button>
-                            <img
-                                src="#"
-                                alt=""
-                                class="card__image"
-                            />
-                            <div class="card__content">
-                                <h2 class="card__title"></h2>
                                 <button
+                                    class="card__delete-button"
                                     type="button"
-                                    class="card__like-btn"
                                 ></button>
-                            </div>
-                        </li>
+                                <img src="#" alt="" class="card__image" />
+                                <div class="card__content">
+                                    <h2 class="card__title"></h2>
+                                    <button
+                                        type="button"
+                                        class="card__like-btn"
+                                    ></button>
+                                </div>
+                            </li>
                         </template>
-                        
                     </ul>
                 </section>
             </main>
@@ -141,12 +139,14 @@
             </div>
             <div class="modal" id="preview-modal">
                 <div class="modal__image-container">
-                    <button type="button" class="modal__close-btn modal__close-btn_type_preview">
-                        <img src="./images/Preview-closebutton.svg" alt="close icon" />
-                        </button>
-                    <img src="#" alt="" class="modal__image">
+                    <button
+                        type="button"
+                        class="modal__close-btn modal__close-btn_type_preview"
+                    >
+                        <img src="./images/Previewclose.svg" alt="close icon" />
+                    </button>
+                    <img src="#" alt="" class="modal__image" />
                     <p class="modal__caption"></p>
-                    
                 </div>
             </div>
         </div>
