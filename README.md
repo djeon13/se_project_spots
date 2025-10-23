@@ -21,3 +21,9 @@ This project was an intro to developing websites that could be viewed in differe
 ##### Screen Recording
 
 -https://drive.google.com/file/d/1yhxMQ6ppVtwIfS8PjYjA9BZJRNYiD359/view?usp=sharing
+
+###### Project Pitch Video
+
+These are my Spots project pitch videos, where I describe my project and some challenges I faced while building it:
+
+-   [Stage 9 Spots](https://drive.google.com/file/d/1nZiD3JafGJvTQ-cyhMo961qjsG8wzxWa/view?usp=sharing)
