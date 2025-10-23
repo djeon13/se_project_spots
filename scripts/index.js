@@ -29,6 +29,8 @@ const initialCards = [
     },
 ];
 
+
+
 const editProfileBtn = document.querySelector(".profile__edit-btn");
 const editProfileModal = document.querySelector("#edit-profile-modal");
 const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
@@ -159,7 +161,7 @@ function handleAddPostSubmit(evt) {
     const cardElement = getCardElement(inputValues);
     cardsList.prepend(cardElement);
     addPostForm.reset();
-    disableButton(addPostSubmitBtn);
+    disableButton(addPostSubmitBtn,settings);
     closeModal(addPostModal);
 }
 
