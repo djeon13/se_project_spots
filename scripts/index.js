@@ -122,10 +122,14 @@ function openModal(modal) {
 editProfileBtn.addEventListener("click", function () {
     editProfileNameInput.value = profileNameEl.textContent;
     editProfileDescriptionInput.value = profileDescriptionEl.textContent;
+    resetValidation(editProfileForm, [editProfileNameInput, editProfileDescriptionInput], settings);
     openModal(editProfileModal);
 });
 
 addPostBtn.addEventListener("click", function () {
+    addPostImageInput.value="";
+    addPostDescriptionInput.value="";
+    resetValidation(addPostForm, [addPostImageInput, addPostDescriptionInput], settings);
     openModal(addPostModal);
 });
 
