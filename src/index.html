@@ -13,10 +13,10 @@
         <div class="page">
             <header class="header">
                 <img
-                    src="./images/logo.svg"
-                    alt="header logo"
-                    class="header__logo"
-                />
+    src="<%= require('./images/logo.svg')%>"
+    alt="header logo"
+    class="header__logo"
+/>
             </header>
             <main class="content">
                 <section class="profile page__section">
@@ -154,7 +154,7 @@
                         type="button"
                         class="modal__close-btn modal__close-btn_type_preview"
                     >
-                        <img src="./images/Previewclose.svg" alt="close icon" />
+                        <img src="<%= require('./images/Previewclose.svg')%>" alt="close icon" />
                     </button>
                     <img src="#" alt="" class="modal__image" />
                     <p class="modal__caption"></p>

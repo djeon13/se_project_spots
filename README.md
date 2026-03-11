@@ -13,6 +13,7 @@ This project was an intro to developing websites that could be viewed in differe
 -Responsive Design
 -Figma
 -Implementing media queries
+-API
 
 #### This webpage is depolyed to GitHub pages
 
@@ -26,4 +27,6 @@ This project was an intro to developing websites that could be viewed in differe
 
 These are my Spots project pitch videos, where I describe my project and some challenges I faced while building it:
 
--   [Stage 9 Spots](https://drive.google.com/file/d/1nZiD3JafGJvTQ-cyhMo961qjsG8wzxWa/view?usp=sharing)
+
+- [Spots first Video](https://drive.google.com/file/d/1yhxMQ6ppVtwIfS8PjYjA9BZJRNYiD359/view?usp=drive_link)
+- [Spots with API](https://www.loom.com/share/26375c67323145f79818ccbe738dc568)
