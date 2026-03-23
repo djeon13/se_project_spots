@@ -7,7 +7,7 @@ import editIcon from "../images/Group2.svg";
 import plusIcon from "../images/Plus.svg";
 import closeIcon from "../images/Group27.svg";
 import previewCloseIcon from "../images/Previewclose.svg";
-import { error } from "jquery";
+
 
 
 const api = new Api({
@@ -157,6 +157,7 @@ addPostBtn.addEventListener("click", function () {
     addPostImageInput.value="";
     addPostDescriptionInput.value="";
     resetValidation(addPostForm, [addPostImageInput, addPostDescriptionInput], settings);
+    disableButton(addPostSubmitBtn, settings);
     openModal(addPostModal);
 });
 
